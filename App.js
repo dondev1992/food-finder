@@ -13,6 +13,13 @@ const navigator = createStackNavigator(
     defaultNavigationOptions: {
       title: "Food Finder",
       headerTitleAlign: "center",
+
+      headerStyle: {
+        backgroundColor: "rgb(210, 125, 45)",
+      },
+      headerTitleStyle: {
+        fontWeight: "bold",
+      },
     },
   }
 );

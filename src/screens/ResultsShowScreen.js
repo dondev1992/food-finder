@@ -42,6 +42,7 @@ const ResultsShowScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     alignItems: "center",
+    backgroundColor: "#DBFDFC",
   },
 
   image: {
